@@ -7,8 +7,12 @@ export const styles = StyleSheet.create({
     Button: {
         backgroundColor: "#0476BD",
         borderRadius: 50,
-        width: "90%",
-        margin: "auto"
+        width: 210,
+        height: 60,
+        margin: "auto",
+        borderWidth: 5,
+        borderColor: "#041b3560",
+        borderBottomWidth: 8,
     },
     Letter: {
         color: "white",

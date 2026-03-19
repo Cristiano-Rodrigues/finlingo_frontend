@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
     Container: {
-        gap: 80,
+        gap: 120,
         backgroundColor: "#F0F4FF",
         flex: 1
     },
@@ -69,7 +69,7 @@ export const styles = StyleSheet.create({
         padding: 10,
         margin: "auto",
         fontSize: 20,
-        fontWeight:"900",
+        fontWeight:"900"
     },
     link: {
         textAlign: "center",
@@ -81,11 +81,15 @@ export const styles = StyleSheet.create({
         width: "90%",
         marginLeft: 10,
     },
+    Image : {
+        width: 144,
+        height: 122
+    },
     googleContainer: {
         flexDirection: "row",
         backgroundColor: "white",
-        width: 220,
-        height: 52,
+        width: 192,
+        height: 50,
         marginHorizontal: "auto",
         borderRadius: 20,
         justifyContent: "center",
@@ -93,8 +97,8 @@ export const styles = StyleSheet.create({
         gap: 10
     },
     googleImage: {
-        width: 20,
-        height: 20
+        width: 25,
+        height: 25
     },
     googleText: {
         fontSize: 15,
